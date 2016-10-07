@@ -1,0 +1,2 @@
+Intervall	KEYWORD1
+zufallswert	KEYWORD2

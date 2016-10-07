@@ -1,0 +1,4 @@
+Button				KEYWORD1
+wurde_gedrueckt		KEYWORD2
+wurde_losgelassen	KEYWORD2
+status_abfragen		KEYWORD2

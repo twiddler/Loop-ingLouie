@@ -1,0 +1,4 @@
+Stoppuhr		KEYWORD1
+ist_abgelaufen	KEYWORD2
+laeuft_bereits	KEYWORD2
+reset			KEYWORD2
