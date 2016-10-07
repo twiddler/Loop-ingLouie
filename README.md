@@ -32,9 +32,11 @@ Spielmodus spielmodi[] = {
 
 Es sind natürlich auch kompliziertere Funktionen möglich:
 ```c++
-bremse bis zum Stehenbleiben
-warte eine zufällige Zeit lang
-fahre vorwärts mit Vollgas
+[]() -> float {
+  bremse bis zum Stehenbleiben
+  warte eine zufällige Zeit lang
+  fahre vorwärts mit Vollgas
+}
 ```
 
 Im loop() wird mit der aktuell ausgewählten Funktion die Geschwindigkeit bestimmt und am Motor eingestellt:
