@@ -4,7 +4,7 @@ This project is in German. Please drop us a line if you'd like to see it transla
 **Loop()ingLouie macht [Looping Louie](https://www.google.de/search?q=looping%20louie) wieder krass!** Schneller fahren, rückwärts fahren, oder einfach mal anhalten ... whaaat? Aber macht euch selbst ein Bild. Mit versteckter Kamera haben wir einen frühen Prototypen filmen können: [Link zum Video folgt]
 
 ## Hardware
-Unser Controller besteht aus einem Arduino Nano, 3 LEDs, einem Powerswitch, und einem Knopf. Die technischen Details folgen noch.
+Unser Controller besteht aus einem Arduino Nano, 3 LEDs, einem Powerswitch, und einem Knopf. Details folgen noch.
 
 ## Logik
 Das Herzstück des Codes ist ein Array von Funktionen, die die Spielmodi darstellen. Sie liefern einen float zwischen -1 und 1 (≙ "Vollgas rückwärts" und "Vollgas vorwärts"). Zwei Beispielmodi:
@@ -33,7 +33,7 @@ Spielmodus spielmodi[] = {
 Es sind natürlich auch kompliziertere Funktionen möglich:
 ```c++
 bremse bis zum Stehenbleiben
-halte für eine zufällige Zeit an
+warte eine zufällige Zeit lang
 fahre vorwärts mit Vollgas
 ```
 
